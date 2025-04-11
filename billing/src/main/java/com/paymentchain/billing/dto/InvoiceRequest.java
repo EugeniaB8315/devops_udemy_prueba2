@@ -18,7 +18,7 @@ public class InvoiceRequest {
 
      @Schema(name = "customer", requiredMode = Schema.RequiredMode.REQUIRED,example = "2", defaultValue = "1", description = "Unique Id of customer that represent the owner of invoice")
    private long customer;
-       @Schema(name = "number", requiredMode = Schema.RequiredMode.REQUIRED,example = "3", defaultValue = "8", description = "nueva branch feature/addtest")
+       @Schema(name = "number", requiredMode = Schema.RequiredMode.REQUIRED,example = "3", defaultValue = "8", description = "nueva branch feature/addtest_notificacion con slack")
    private String number;
    private String detail;
    private double amount;  
